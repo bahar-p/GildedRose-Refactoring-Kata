@@ -1,4 +1,3 @@
-require_relative '../item'
 
 # implements base item inventory updates, including conjured
 class BaseItem < Item

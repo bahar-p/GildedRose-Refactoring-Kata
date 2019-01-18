@@ -1,4 +1,3 @@
-require_relative '../item'
 
 # implements Backstage Concert inventory updates
 class BackStageConcert < BaseItem

@@ -1,4 +1,3 @@
-require_relative '../item'
 
 # implements Sulfuras inventory updates
 class Sulfuras < BaseItem

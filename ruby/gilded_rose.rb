@@ -10,6 +10,7 @@ class GildedRose
     @items = Array(items)
   end
 
+  # TODO: move update_sellin to update quality method of each item and rename to update_sellin_and_quality
   # update items quality
   def update_quality
     @items.each do |item|
@@ -18,6 +19,7 @@ class GildedRose
     end
   end
 
+  # move names to each item class
   module Items
     AGED_BRIE = 'Aged Brie'.freeze
     BS_CONCERT = 'Backstage passes to a TAFKAL80ETC concert'.freeze

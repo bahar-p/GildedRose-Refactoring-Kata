@@ -1,4 +1,3 @@
-require_relative '../item'
 
 # implements Aged Brie inventory updates
 class AgedBrie < BaseItem

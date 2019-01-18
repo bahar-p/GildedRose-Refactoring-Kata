@@ -1,7 +1,8 @@
 #!/usr/bin/ruby -w
 
-require File.join(File.dirname(__FILE__), 'gilded_rose')
-Dir["#{File.dirname(__FILE__)}/items/*.rb"].each { |file| require file }
+require File.join(__dir__, 'gilded_rose')
+Dir[File.join(__dir__,'items', '*.rb')].each { |file| require file }
+
 
 puts 'OMGHAI!'
 items = [
